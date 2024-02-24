@@ -1,0 +1,71 @@
+package com.BitByteCraft.Wyld.dto.wrapperdto;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+import java.util.ArrayList;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
+public class Item {
+    public String code;
+    public String pk;
+    public String id;
+    public Object ad_id;
+    public int taken_at;
+    public Object inventory_source;
+    public Object video_versions;
+    public Object number_of_qualities;
+    public ImageVersions2 image_versions2;
+    public boolean is_paid_partnership;
+    public Object sponsor_tags;
+    public int original_height;
+    public int original_width;
+    public String organic_tracking_token;
+    public User user;
+    public Object group;
+    public Object comments_disabled;
+    public boolean like_and_view_counts_disabled;
+    public boolean can_viewer_reshare;
+    public String product_type;
+    public int media_type;
+    public Object usertags;
+    public Object media_overlay_info;
+    public ArrayList<CarouselMedium> carousel_media;
+    public Object location;
+    public Object has_audio;
+    public Object clips_metadata;
+    public Object clips_attribution_info;
+    public boolean has_liked;
+    public Object carousel_parent_id;
+    public ArrayList<String> top_likers;
+    public int like_count;
+    public Object view_count;
+    public Owner owner;
+    public Object social_context;
+    public Object saved_collection_ids;
+    public Object has_viewer_saved;
+    public boolean ig_media_sharing_disabled;
+    public Object audience;
+    public Object visibility;
+    public Object feed_demotion_control;
+    public Object feed_recs_demotion_control;
+    public Object coauthor_producers;
+    public Object photo_of_you;
+    public Caption caption;
+    public Object can_reshare;
+    public Object expiring_at;
+    public Object link;
+    public Object story_cta;
+    public int carousel_media_count;
+    public ArrayList<Object> invited_coauthor_producers;
+    public boolean can_see_insights_as_brand;
+    public Object follow_hashtag_info;
+    public Object affiliate_info;
+    public Object preview;
+    public int comment_count;
+    public ArrayList<Object> comments;
+    public Object boosted_status;
+    public boolean caption_is_edited;
+    public Object main_feed_carousel_starting_media_id;
+    public Object commenting_disabled_for_viewer;
+    public Object title;
+}

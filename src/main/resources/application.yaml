@@ -1,0 +1,9 @@
+spring:
+    application:
+        name: account-service
+temp: ${env.BASE_URL}
+instagram:
+    baseUrl: ${BASE_URL}
+    apiKey: ${API_KEY}
+    host: ${HOST}
+
